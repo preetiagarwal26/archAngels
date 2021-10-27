@@ -24,7 +24,18 @@
     * Ability to identify a user's persona
  
  4. System should provide a facility to chat with Dieticians, Doctors and Personal Trainers
-    * ???
+    * ???   
  
- 6. 
+ 5. System should provide analytics capabilities:
+    * Ability to house data from:
+      * User profile
+      * Orders
+      * Forum
+      * Chats
+     
+    * Ability to provide a forecast / recommendation for:
+      * Food items and quantitied to be delivered to a smart fridge on a given day
+      * Menu item(s) a user might prefer
+      * Services a user might prefer (Dietician, Doctor, Personal Trainer)
+    
  
