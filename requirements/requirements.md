@@ -30,8 +30,14 @@
  5. Ability to maintain and schedule events
     * Virtual events which will be global
     * In person local events
+
+ 6. Ability to store content for sharing with Farmacy Family community
+    * Videos
+    * Articles
+    * Surveys
+    * Training material
  
- 6. System should provide analytics capabilities:
+ 7. System should provide analytics capabilities:
     * Ability to house data from:
       * User profile
       * Orders
