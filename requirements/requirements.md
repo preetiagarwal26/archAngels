@@ -41,5 +41,10 @@
       * Discussion threads relevant to a user (these will ranked higher when a user logs into Farmacy Family)
 
     
-  
+ <h3>Assumptions</h3>
+ 
+   * Existing order management system will continue.
+   * Existing payment system will continue.
+   * Existing notification system will be extended to send Farmacy Family communications.
+   * Integration with smart fridges will stay as-is.
  
