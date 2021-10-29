@@ -8,12 +8,12 @@
       * Personal Trainers
       
     * User characteristics should include
-      * Identification (name, email, address etc)
+      * Identification (name, email etc)
       * demographic (age, location)
       * dietary preferences
 
 2. Ability to maintain user entitlements
-    * Whether user is a customer
+    * Whether user is a Farmacy Foods customer
     * Whether user is a Farmacy Family user (forum member)
     * Control which personal information a user wants to expose to community, Dieticians, Doctors, Personal Trainers, a specific user.
 
@@ -24,21 +24,21 @@
     * Ability to identify a user's persona
  
  4. System should provide a facility to chat with Dieticians, Doctors and Personal Trainers
-    * ???   
+    * Similar to instant message in facebook   
  
  5. System should provide analytics capabilities:
     * Ability to house data from:
       * User profile
       * Orders
-      * Forum
-      * Chats
+      * Forum messages
+      * Chats (should it be personal?)
       * Inventory data from smart fridges and kiosks
      
     * Ability to provide a forecast / recommendation for:
-      * Food items and quantitied to be delivered to a smart fridge on a given day
-      * Menu item(s) a user might prefer
+      * Food items and quantities to be delivered to a smart fridge on a given day
+      * Menu item(s) that a user might prefer
       * Services a user might prefer (Dietician, Doctor, Personal Trainer)
-      * Discussion threads relevant to a user (these will ranked higher when a user logs into Farmacy Family
+      * Discussion threads relevant to a user (these will ranked higher when a user logs into Farmacy Family)
 
     
   
