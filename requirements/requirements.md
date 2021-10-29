@@ -6,6 +6,7 @@
       * Dieticians
       * Doctors
       * Personal Trainers
+      * Admin user (they will moderate the Farmacy Famility forum and manage events)
       
     * User characteristics should include
       * Identification (name, email etc)
@@ -25,8 +26,12 @@
  
  4. System should provide a facility to chat with Dieticians, Doctors and Personal Trainers
     * Similar to instant message in facebook   
+
+ 5. Ability to maintain and schedule events
+    * Virtual events which will be global
+    * In person local events
  
- 5. System should provide analytics capabilities:
+ 6. System should provide analytics capabilities:
     * Ability to house data from:
       * User profile
       * Orders
