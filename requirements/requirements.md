@@ -12,7 +12,8 @@
       * Identification (name, email etc)
       * demographic (age, location)
       * dietary preferences
-      * Medical records
+    
+   * Medical records
 
 2. Ability to maintain user entitlements
     * Whether user is a Farmacy Foods customer
