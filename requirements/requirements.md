@@ -52,6 +52,7 @@
       * Menu item(s) that a user might prefer
       * Services a user might prefer (Dietician, Doctor, Personal Trainer)
       * Discussion threads relevant to a user (these will ranked higher when a user logs into Farmacy Family)
+      * Recommended lab tests
 
     
  <h3>Assumptions</h3>
