@@ -44,6 +44,7 @@
       * Forum messages
       * Chats (should it be personal?)
       * Inventory data from smart fridges and kiosks
+      * Third party data for food consumption by geography
      
     * Ability to provide a forecast / recommendation for:
       * Food items and quantities to be delivered to a smart fridge on a given day
