@@ -13,6 +13,7 @@ S.No.|Characteristic|Why
 <h2>Architecture Styles</h2>
 
 Considering above -ilities, we narrowed down architecture style to following:-
-  * Micro Kernel
-  * Service based
+  * Microkernel
+  * Service-based
 
+<h3>Microkernal</h3>
