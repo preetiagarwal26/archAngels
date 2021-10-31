@@ -9,3 +9,10 @@ S.No.|Characteristic|Why
 5|Extensibility|Farmacy Foods is in the growth phase and is likely to constantly add products and features.
 6|Scalability|Farmacy Foods had ambitious growth plans and the architecture should scale with growing business and community.
 
+
+<h2>Architecture Styles</h2>
+
+Considering above -ilities, we narrowed down architecture style to following:-
+  * Micro Kernel
+  * Service based
+
