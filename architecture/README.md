@@ -9,7 +9,7 @@ The main purpose of extending archcollider's original component diagram is to ea
 into the existing solution. We believe that this diagram is extremely important to ensure our solution can be easily adapted and integrated into the existing 
 architecture. 
 
-![alt text](https://github.com/preetiagarwal26/archAngels/blob/main/architecture/component-diagram.jpg "Component composition and communication")
+![alt text](https://github.com/preetiagarwal26/archAngels/blob/main/architecture/images/component-diagram.jpg "Component composition and communication")
 
 ### Components 
 
