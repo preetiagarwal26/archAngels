@@ -21,3 +21,5 @@ Considering above -ilities, we narrowed down architecture style to following:-
 <h3>Service-based</h3>
 
 <h3>Hybrid</h3>
+
+<h2>References</h2>
