@@ -1,5 +1,6 @@
 # Architecture Kata 2021 Autumn - Team archAngels
 
+An archangel is an angel of high rank.
 ## Members
  * Manika Mittal https://www.linkedin.com/in/manikamittal/
  * Preeti Gupta https://www.linkedin.com/in/preeg/
