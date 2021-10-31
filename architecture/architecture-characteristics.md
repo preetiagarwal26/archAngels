@@ -25,6 +25,15 @@ Considering above -ilities, we narrowed down architecture style to following:-
  We propose an style that is a mix of monolith, service-based, event driven.
  
  <h2>Third party/Opensource libraries</h2>
+ 
+ <h3>Chat System</h3>
+ We evaluated following open source Chat and Messaging development SDK:-
+ * Rocket.chat
+ * Amazon Connect
+ * Matrix
+ * Meteor
+
+<h3>Forum</h3>
 
 <h2>References</h2>
 https://aws.amazon.com/blogs/architecture/store-protect-optimize-your-healthcare-data-with-aws/ <br/> https://aws.amazon.com/compliance/hipaa-eligible-services-reference/ <br/>
