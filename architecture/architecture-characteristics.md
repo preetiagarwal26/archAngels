@@ -27,11 +27,12 @@ Considering above -ilities, we narrowed down architecture style to following:-
  <h2>Third party/Opensource libraries</h2>
  
  <h3>Chat System</h3>
+ 
  We evaluated following open source Chat and Messaging development SDK:-
- * Rocket.chat
- * Amazon Connect
- * Matrix
- * Meteor
+  * Rocket.chat
+  * Amazon Connect
+  * Matrix
+  * Meteor
 
 <h3>Forum</h3>
 
