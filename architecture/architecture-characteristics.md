@@ -17,11 +17,15 @@ Considering above -ilities, we narrowed down architecture style to following:-
   * Service-based
 
 <h3>Microkernal</h3>
-  A style consisting of two types of components **core** , **plugin**
+  A style consisting of two types of components <strong>core</strong> , <strong>plugin</strong>
   In future if we were to add more third parties such as Gym, Therapist etc. They could potentially be added as plugin to existing system. <br/> However, one could argue they could be managed as separate identity in identity management system.<br/> This style may be more suitable for insurance, claims system.
 
 <h3>Service-based</h3>
 
 <h3>Hybrid</h3>
+ We propose an style that is a mix of monolith, service-based, event driven.
 
 <h2>References</h2>
+https://aws.amazon.com/blogs/architecture/store-protect-optimize-your-healthcare-data-with-aws/
+https://aws.amazon.com/compliance/hipaa-eligible-services-reference/
+https://learning.oreilly.com/videos/software-architecture-fundamentals/9781491998991/9781491998991-video317000/
