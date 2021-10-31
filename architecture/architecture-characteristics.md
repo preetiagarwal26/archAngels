@@ -26,6 +26,5 @@ Considering above -ilities, we narrowed down architecture style to following:-
  We propose an style that is a mix of monolith, service-based, event driven.
 
 <h2>References</h2>
-https://aws.amazon.com/blogs/architecture/store-protect-optimize-your-healthcare-data-with-aws/
-https://aws.amazon.com/compliance/hipaa-eligible-services-reference/
+https://aws.amazon.com/blogs/architecture/store-protect-optimize-your-healthcare-data-with-aws/ <br/> https://aws.amazon.com/compliance/hipaa-eligible-services-reference/ <br/>
 https://learning.oreilly.com/videos/software-architecture-fundamentals/9781491998991/9781491998991-video317000/
