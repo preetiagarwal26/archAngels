@@ -40,6 +40,6 @@ This particular user scenario is described using an information flow diagram jus
 ## Detailed Architecture 
 
 - User Profile and Access Control Component
-- Catalog and FulFillment Component
+- [Catalog and FulFillment Component](components/catalog-fulfillment-component.md)
 - Analytics Component
 - [Personlization Component](components/personalization-component.md)
