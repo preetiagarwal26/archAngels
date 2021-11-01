@@ -38,7 +38,9 @@
 
 ## Community Outreach
   * Push
+ 	 * Frequent on-demand, scheduled communication will be sent to Farmacy Family Customers informing about <strong>Farmacy Family</strong> 	
   * Pull
+  	* Machine Learning subsytem will maintain user's interaction with Farmacy Food and will suggest recommended forums, posts, classes etc.
 
 ## Progress reports
   * System will have the ability to generate user specific charts/graphs to show lifestyle improvements. This data can be aggregated and showcased to potential investors.
