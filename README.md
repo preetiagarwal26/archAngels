@@ -11,3 +11,6 @@ An archangel is an angel of high rank. A word that has architecture and angels i
 ## Requirements/Use-cases
   * [Requirements](requirements/requirements.md)
   * [Usecases](requirements/Usecases.md)
+  
+## Initial Brainstorm
+  * [Brainstorm](architecture/initial%20work)
