@@ -7,6 +7,7 @@ Assumptions
 Both chat, forum components will be deployed on AWS.
 
 <h2>Requirement</h2>
+
 * Provision a chat system
 * Build community forum
 
