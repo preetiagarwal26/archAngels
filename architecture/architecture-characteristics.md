@@ -36,6 +36,12 @@ Considering above -ilities, we narrowed down architecture style to following:-
 
 <h3>Forum</h3>
 
+Following open-source forum system can be plugged in to existing system:-
+ * MyBB (https://mybb.com/)
+   <p>Free and open-source forum software. It can be easily integerated with AWS (https://aws.amazon.com/marketplace/pp/prodview-khsff4s7snq32)</p>
+ * phpBB (https://www.phpbb.com/
+   <p>Free open-source bulletin board software. Here is a link to integerate with AWS (https://aws.amazon.com/marketplace/pp/prodview-we55cxypcapls)</p>
+   
 <h2>References</h2>
 https://aws.amazon.com/blogs/architecture/store-protect-optimize-your-healthcare-data-with-aws/ <br/> https://aws.amazon.com/compliance/hipaa-eligible-services-reference/ <br/>
 https://learning.oreilly.com/videos/software-architecture-fundamentals/9781491998991/9781491998991-video317000/
