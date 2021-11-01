@@ -8,9 +8,3 @@ An archangel is an angel of high rank. A word that has architecture and angels i
  * Vishakha Jain https://www.linkedin.com/in/jainvishakha/
  * Vivek Agarwal https://www.linkedin.com/in/via/
 
-
-</h3>Data Flow Diagram</h3>
-
-![alt text](https://github.com/preetiagarwal26/archAngels/blob/main/architecture/Farmacy%20Family.jpeg?raw=true)
-
-
