@@ -44,3 +44,5 @@ This particular user scenario is described using an information flow diagram jus
 - Analytics Component
 - [Personlization Component](components/personalization-component.md)
 - [Communication Component](components/communication-component.md)
+- [Community Event Scheduling Component](components/community-event-scheduling-component.md)
+- [Content Management Component](components/content-management-component.md)
