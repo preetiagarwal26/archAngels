@@ -27,3 +27,8 @@ a meal from the Meal Catalog, a class from the Education Catalog or a community 
 - **Analytics** : The component is responsible for running machine learning algorithms on batches of data to derive models that can be used to infer behaviors, trends, recommendations, etc. This component has the ability to receive its inputs from several systems which may be internal like the End-user offerings subsystem, Order processing subsystem and external systems like Smart Fridge, Ghost kitchens, etc. More data from different systems can enable this component to make smarter and more personalized recommendations. This component can then feed the Personalization component discussed below, or can even be used by the existing Reporting subsystem to prepare reports and dashboards that can be used to see various trends like users added, health improvement over a period of time, food wastage improved over a period of time, etc. 
 - **Personalization** : The Personalization component leverages the intelligence derived from the Analytics component to personalize user experience. For now, based on the current requirements, it’s simply used to target the transactional customers to encourage them to become engaged customers. In future, this component can be extended to send periodic personalized recommendations to all users, to personalize user experiences in the front-end app, etc. 
 
+## Detailed Architecture 
+
+- User Profile and Access Control
+- Analytics Component
+- [Personlization Component](components/personalization-component.md)
