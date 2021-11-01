@@ -22,7 +22,7 @@ We propose using third party open-source library, rather than building in-house 
   
 <h3>Forum</h3>
 
- Following open-source forum system can be plugged in to existing system:-
+ Anyine of the following open-source forum system can be plugged in to existing system:-
  * MyBB (https://mybb.com/)
    <p>Free and open-source forum software. It can be easily integerated with AWS (https://aws.amazon.com/marketplace/pp/prodview-khsff4s7snq32)</p>
  * phpBB (https://www.phpbb.com/
