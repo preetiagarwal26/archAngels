@@ -24,7 +24,7 @@ Considering above -ilities, we narrowed down architecture style to following:-
 <h3>Hybrid</h3>
  We propose an style that is a mix of monolith, service-based, event driven.
  
- <h2>Third party/Opensource libraries</h2>
+ <h2>Third party/Open-source libraries</h2>
  
  <h3>Chat System</h3>
  
