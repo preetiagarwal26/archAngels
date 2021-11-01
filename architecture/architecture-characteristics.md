@@ -23,24 +23,6 @@ Considering above -ilities, we narrowed down architecture style to following:-
 
 <h3>Hybrid</h3>
  We propose an style that is a mix of monolith, service-based, event driven.
- 
- <h2>Third party/Open-source libraries</h2>
- 
- <h3>Chat System</h3>
- 
- We evaluated following open-source Chat and Messaging development SDK:-
-  * Rocket.chat (https://rocket.chat/)
-    <p>It's an open-source self-hosted messaging platform, which can be installed anywhere. <br/> Additionally it can be deployed on AWS (https://docs.rocket.chat/quick-start/installing-and-updating/paas-deployments/aws) </p>
-  * Amazon Connect
-    <p> An easy-to-use omnichannel cloud contact center with chat capabilities.<br/> Available for free, for 12 months, as part of the AWS Free Tier program. Provides pay-as-you-go pricing model.</p>
-
-<h3>Forum</h3>
-
-Following open-source forum system can be plugged in to existing system:-
- * MyBB (https://mybb.com/)
-   <p>Free and open-source forum software. It can be easily integerated with AWS (https://aws.amazon.com/marketplace/pp/prodview-khsff4s7snq32)</p>
- * phpBB (https://www.phpbb.com/
-   <p>Free open-source bulletin board software. Here is a link to integerate with AWS (https://aws.amazon.com/marketplace/pp/prodview-we55cxypcapls)</p>
    
 <h2>References</h2>
 https://aws.amazon.com/blogs/architecture/store-protect-optimize-your-healthcare-data-with-aws/ <br/> https://aws.amazon.com/compliance/hipaa-eligible-services-reference/ <br/>
