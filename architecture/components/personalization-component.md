@@ -33,12 +33,12 @@ Send email with engagement opportunities and Farmacy Family benefits to targeted
 
 ## Architecture Decision Record 
 
-### Title : Architecture for targeting transactional customers 
+#### Title : Architecture for targeting transactional customers 
 
-### Context 
+#### Context 
 We need an asynchronous system to send emails to transactional customers. Since this is an internal system which means we have some flexibility over how we want to model the input data.
 
-### Alternatives  
+#### Alternatives  
 The input to this system is a transaction customer/customers with some contact information like email. There are a few alternatives to implement this system : 
 1. Cron job like scheduling to send emails to a batch of transactional customers. 
   - The targeting system would operate like a periodic cron job, let’s say hourly, that takes a batch of transactional customers added in the last hour (configurable parameter) and sends targeting emails to them. 
@@ -52,10 +52,10 @@ The input to this system is a transaction customer/customers with some contact i
 2. Event triggered upon a successful transaction from a customer. 
 - A transactional event generated upon successful transaction by a customer can be directly consumed by this targeting system. Though, as mentioned above, we recommend that such an event be first used to update the DynamoDB table of transactional customers and then a successful DynamoDB update can be consumed using DynamoDB stream to trigger an email. 
 
-### Decision  
+#### Decision  
 The second option is simple and involves less components to maintain. It also makes a recommendation to maintain a DynamoDB table of transactional customers which is more future proof than the recommendations made in option 1. 
 
-### Consequences  
+#### Consequences  
 - Low cost. We only need to consume kinesis/ dynamodb stream events which can trigger the targeting system using AWS Lambda that sends the targeting email. 
 - AWS Kinesis and AWS Lambda are very reliable and scalable components and require very low maintenance. 
 - This event based model may lead to multiple emails to the same customer over a short period of time if the same customer makes multiple different transactions. Before designing a solution for this, it will be worthwhile to look into some data points about how often this happens.
