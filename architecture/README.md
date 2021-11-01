@@ -43,3 +43,4 @@ This particular user scenario is described using an information flow diagram jus
 - [Catalog and FulFillment Component](components/catalog-fulfillment-component.md)
 - Analytics Component
 - [Personlization Component](components/personalization-component.md)
+- [Communication Component](components/communication-component.md)
