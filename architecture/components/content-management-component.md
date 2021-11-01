@@ -7,6 +7,7 @@ Assumptions
 None
 
 <h2>Requirement</h2>
+
 * User should be able to 
 	* read articles.
 	* play archived, live videos 
@@ -16,4 +17,7 @@ We propose using third party open-source library, rather than building in-house 
 
 Use follwoing open-source platform:-
   * Pimcore DAM(Digital Asset Management) (https://pimcore.com/en/resources/blog/top-5-free-and-open-source-dam-software-in-2021_a115455)
-    <p>It centralizes all media assets. <br/> Provides effective metadata management, AI/ML tagging etc. <br/> Additionally it can be deployed on AWS (https://aws.amazon.com/marketplace/pp/prodview-qxrldqviesswi) </p>
+  
+    	* It centralizes all media assets.
+    	* Provides effective metadata management, AI/ML tagging etc. 
+    	* Additionally it can be deployed on AWS (https://aws.amazon.com/marketplace/pp/prodview-qxrldqviesswi)
