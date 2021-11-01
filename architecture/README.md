@@ -27,8 +27,19 @@ a meal from the Meal Catalog, a class from the Education Catalog or a community 
 - **Analytics** : The component is responsible for running machine learning algorithms on batches of data to derive models that can be used to infer behaviors, trends, recommendations, etc. This component has the ability to receive its inputs from several systems which may be internal like the End-user offerings subsystem, Order processing subsystem and external systems like Smart Fridge, Ghost kitchens, etc. More data from different systems can enable this component to make smarter and more personalized recommendations. This component can then feed the Personalization component discussed below, or can even be used by the existing Reporting subsystem to prepare reports and dashboards that can be used to see various trends like users added, health improvement over a period of time, food wastage improved over a period of time, etc. 
 - **Personalization** : The Personalization component leverages the intelligence derived from the Analytics component to personalize user experience. For now, based on the current requirements, it’s simply used to target the transactional customers to encourage them to become engaged customers. In future, this component can be extended to send periodic personalized recommendations to all users, to personalize user experiences in the front-end app, etc. 
 
+## User Scenarios
+
+1. User signs up to Farmacy Family 
+2. User updates medical reports and modifies access
+3. User browses and signs up for an educational course offered
+  
+This particular user scenario is described using an information flow diagram just like the one used by [archcollider](https://github.com/ldynia/archcolider/blob/4a71575e64fb4e28a284f3bc063169ce7082668c/img/IM_meal_purchase.PNG). As described earlier, consuming an educational resource like signing up for a course is viewed architecturally similar to purchasing a meal. The user scenario described below was adapted from archcollider to show the similarity and to demonstrate how all meal purchase related scenarios (including cancelling of meals) can be adopted for delivering wellness related education materials. The user may or may not be asked to pay for an educational resource depending on the business model. 
+  
+![alt text](https://github.com/preetiagarwal26/archAngels/blob/main/architecture/images/purchase-course.jpg "User Scenario : User signs up for an educational course")
+  
 ## Detailed Architecture 
 
-- User Profile and Access Control
+- User Profile and Access Control Component
+- Catalog and FulFillment Component
 - Analytics Component
 - [Personlization Component](components/personalization-component.md)
