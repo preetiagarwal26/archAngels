@@ -31,7 +31,10 @@ Access control service : Service to authorize actions like allowing dietician ac
 
 ## User Scenarios
 
-1. User signs up to Farmacy Family 
+1. User signs up for Farmacy Family 
+
+![alt text](https://github.com/preetiagarwal26/archAngels/blob/main/architecture/images/User%20sign%20up.png "User Scenario : User signs up to become a member of Farmacy Family")
+  
 2. User updates medical reports and modifies access
 3. User browses and signs up for an educational course offered
   
