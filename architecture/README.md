@@ -23,15 +23,17 @@ a meal from the Meal Catalog, a class from the Education Catalog or a community 
   
 - **Community forum & chat** : This sub-component can be viewed as a second way to communicate with the customers. The notifications sub-component can be viewed as a “push model” for community engagement while the Community forum and chat is an implementation of the “pull model”.  We view this sub-component as the medium for fulfilling orders of the type Education Catalog and Community Catalog as mentioned above. Given the complexity of owning such a system, our initial recommendation is to use an open source library deployed in the existing network (AWS). <TODO : Add technology recommendations. See if AWS has something already.>
 - **User Profile and Access Control** : This component has 3 sub-components which are implemented as micro-services.<br />
-User profile service : Collect, store and update user profile information. This talks to existing dynamoDB table that stores user information (this is an assumption).<br />
-Identity management service : Contact identity provider to authenticate user, and issue and validate user tokens.<br />
-Access control service : Service to authorize actions like allowing dietician access to medical reports of a specific user.
+1. User profile service : This sub-component collects, stores and updates user profile information. We assume that this service talks to existing dynamoDB table that stores user information.<br />
+2. Identity management service : This sub-component contacts an identity provider to authenticate user, and issue and validate user tokens.<br />
+3. Access control service : This sub-component offers the service to authorize actions like allowing dietician access to medical reports of a specific user.
 - **Analytics** : The component is responsible for running machine learning algorithms on batches of data to derive models that can be used to infer behaviors, trends, recommendations, etc. This component has the ability to receive its inputs from several systems which may be internal like the End-user offerings subsystem, Order processing subsystem and external systems like Smart Fridge, Ghost kitchens, etc. More data from different systems can enable this component to make smarter and more personalized recommendations. This component can then feed the Personalization component discussed below, or can even be used by the existing Reporting subsystem to prepare reports and dashboards that can be used to see various trends like users added, health improvement over a period of time, food wastage improved over a period of time, etc. 
 - **Personalization** : The Personalization component leverages the intelligence derived from the Analytics component to personalize user experience. For now, based on the current requirements, it’s simply used to target the transactional customers to encourage them to become engaged customers. In future, this component can be extended to send periodic personalized recommendations to all users, to personalize user experiences in the front-end app, etc. 
 
 ## User Scenarios
 
 1. User signs up for Farmacy Family 
+  
+AWS offers a service called Cognito which we use here to handle Farmacy Family’s authentication needs. It allows for other identity providers to be hooked up. A practical example of this is giving the user the option to log in to Farmacy Family using their Google account login. This user scenario is described using a sequence diagram with Cognito as the identity management component interacting with an external identity provider like Google.
 
 ![alt text](https://github.com/preetiagarwal26/archAngels/blob/main/architecture/images/User%20sign%20up.png "User Scenario : User signs up to become a member of Farmacy Family")
   
