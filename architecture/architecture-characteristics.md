@@ -3,7 +3,7 @@
 S.No.|Characteristic|Why
 -----|--------------|---
 1|Cost| - Farmacy Foods is a startup firm with limited resources. We propose to reduce cost by using open source libraries and reusing services provided by AWS. 
-2|Adeptablity| - Farmacy Foods is a startup firm with limited resources. We propose to reduce cost by using open source libraries and reusing services provided by AWS. 
+2|Adeptablity| - Farmacy Family is an extension to Farmacy Foods. New components should be adeptable to existing system and should provide seamless integeration. 
 3|Agility| - Solution should be delivered quickly. Time to market could a constraint here. Suggest to have less in-house build components 
 4|Security| - Farmacy Family plan to store customer's PII (Personal Identifiable Information), EMR (Electronic Medical Record). Data compliance, governance should be taken into consideration. <br/>- We offer storing data in <strong>Amazon S3 layer</strong>, and accessed via <strong>AWS HIPPA eligible services</strong>. 
 5|Feasibility & Simplicity| - Prefer pay-as-you-go instead of owning infrastructure and licenses.
@@ -15,14 +15,20 @@ S.No.|Characteristic|Why
 
 Considering above -ilities, we narrowed down architecture style to following:-
   * Microkernel
-  * Service-based
+  * Event-driven only
+  * Microservice only
 
 <h3>Microkernal</h3>
   A style consisting of two types of components <strong>core</strong> , <strong>plugin</strong>. <br/> In future if we were to add more third parties such as Gym, Therapist etc. They could potentially be added as plugin to existing system. <br/> However, one could argue they could be managed as separate identity in identity management system.<br/> This style may be more suitable for insurance, claims system.
 
+<h3>Event-driven only</h3>
+  Farmacy Family has components like <strong>Identity, user profile management</strong>. This component needs to validate identity and respond back synchronously to proceed further. We cannot have only event-driven style.
+
+<h3>Micorservices only</h3>
+  Components like <strong>Personalization</strong>, <strong>notification</strong> are asynchronous by nature, hence more suitable for event-driven style. 
+  
 <h3>Hybrid</h3>
- We propose an style that is a mix of monolith, service-based, event driven.
+ Finally, we propose an style that is a mix of monolith, event driven, microservices. Component level style can be found in Solution section
    
 <h2>References</h2>
-https://aws.amazon.com/blogs/architecture/store-protect-optimize-your-healthcare-data-with-aws/ <br/> https://aws.amazon.com/compliance/hipaa-eligible-services-reference/ <br/>
-https://learning.oreilly.com/videos/software-architecture-fundamentals/9781491998991/9781491998991-video317000/
+https://learning.oreilly.com/videos/software-architecture-fundamentals/9781491998991/ <br/> https://aws.amazon.com/blogs/architecture/store-protect-optimize-your-healthcare-data-with-aws/ <br/> https://aws.amazon.com/compliance/hipaa-eligible-services-reference/ 
