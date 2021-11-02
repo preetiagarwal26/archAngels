@@ -11,6 +11,10 @@ Engaged users can view all the information for all wellness providers and dietic
 Wellness providers and dieticians can view basic information of the user they are engaged with. They may be allowed to view additional information like medical reports if a user grants them access.
 
 <h2>Solution</h2>
+Customers have basic information like name, gender, email, date of birth, etc.
+Customers have additional information like address, credit card details, medical reports, etc.
+Wellness providers and dieticians have basic information.<br />
+
 We propose building services that use API to add users, upload reports, retrieve current access controls, etc. We will create a service that interacts with existing DynamoDB that stores user profile information.
 We will leverage AWS's Cognito for identity and access management. Access Management basically helps us allow/disallow access to engaged user's information.
  
