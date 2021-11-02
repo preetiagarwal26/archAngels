@@ -4,12 +4,12 @@
 Provide <strong>Farmacy Family</strong> user's ability to list join virtual in-person classes.
 
 Assumptions
-None
+This component will be an extension to existing Farmacy Food scheduling system.
 
 <h2>Requirement</h2>
 
 * User should be able to :-
-	* List currently registered, upcoming classes based on geographic location
+	* List currently registered, upcoming in-person classes based on geographic location, all virtual classes
 	* Register/unregister/attend classes
 
 <h2>Solution</h2>
