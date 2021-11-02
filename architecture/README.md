@@ -41,7 +41,7 @@ This particular user scenario is described using an information flow diagram jus
 
 - User Profile and Access Control Component
 - [Catalog and FulFillment Component](components/catalog-fulfillment-component.md)
-- Analytics Component
+- [Analytics Component](components/analytics-component.md)
 - [Personlization Component](components/personalization-component.md)
 - [Communication Component](components/communication-component.md)
 - [Community Event Scheduling Component](components/community-event-scheduling-component.md)
