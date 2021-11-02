@@ -37,6 +37,13 @@ This particular user scenario is described using an information flow diagram jus
   
 ![alt text](https://github.com/preetiagarwal26/archAngels/blob/main/architecture/images/purchase-course.jpg "User Scenario : User signs up for an educational course")
   
+4. User chats with another user or dietitian
+  ![alt text](https://github.com/preetiagarwal26/archAngels/blob/main/architecture/images/Chat%20subsystem.jpeg "User Scenario : User chats with another user")
+  
+5. User accesses forum
+  ![alt text](https://github.com/preetiagarwal26/archAngels/blob/main/architecture/images/Forum%20Management%20Subsystem.jpeg "User Scenario : User accesses forum")
+  
+  
 ## Detailed Architecture 
 
 - User Profile and Access Control Component
