@@ -20,3 +20,4 @@ An archangel is an angel of high rank. A word that has architecture and angels i
 
 ## Backlog 
   * Add a lot more user scenarios 
+  * Add some cost analysis (e.g. using S3 for batch dumps of data)
