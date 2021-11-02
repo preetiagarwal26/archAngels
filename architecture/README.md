@@ -53,7 +53,7 @@ This particular user scenario is described using an information flow diagram jus
   
 ## Detailed Architecture 
 
-- User Profile and Access Control Component
+- [User Profile and Access Control Component] (components/user-profile-and-iam-component.md)
 - [Catalog and FulFillment Component](components/catalog-fulfillment-component.md)
 - [Analytics Component](components/analytics-component.md)
 - [Personlization Component](components/personalization-component.md)
