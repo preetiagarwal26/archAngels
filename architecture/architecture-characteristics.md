@@ -16,9 +16,9 @@ S.No.|Characteristic|Why
 Considering above -ilities, we narrowed down architecture style to following:-
   * Microkernel
   * Event-driven only
-  * Microservice only
+  * Microservices only
 
-<h3>Microkernal</h3>
+<h3>Microkernel</h3>
   A style consisting of two types of components <strong>core</strong> , <strong>plugin</strong>. <br/> In future if we were to add more third parties such as Gym, Therapist etc. They could potentially be added as plugin to existing system. <br/> However, one could argue they could be managed as separate identity in identity management system.<br/> This style may be more suitable for insurance, claims system.
 
 <h3>Event-driven only</h3>
