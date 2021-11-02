@@ -41,7 +41,7 @@ AWS offers a service called Cognito which we use here to handle Farmacy Familyâ€
   
 In this user scenario, a Farmacy Family user uploads a medical report and grants fine-grained access to that report to one dietician.
   
-![alt text](https://github.com/preetiagarwal26/archAngels/blob/main/architecture/images/Upload%20medical%20record.png "User Scenario : User uploads a medical report and adds access to the reports to one dietician")
+![alt text](https://github.com/preetiagarwal26/archAngels/blob/main/architecture/images/Upload%20medical%20record%20and%20access.png "User Scenario : User uploads a medical report and adds access to the reports to one dietician")
   
 3. User browses and signs up for an educational course offered
   
