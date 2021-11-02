@@ -1,4 +1,4 @@
-# Architecture Kata 2021 Autumn - Team archAngels
+# Architecture Kata 2021 Autumn - Team "Arch Angels"
 
 An archangel is an angel of high rank. A word that has architecture and angels in it seems more than appropriate. Thanks to Vivek for suggesting an apt name.
 
