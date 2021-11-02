@@ -22,13 +22,13 @@ Considering above -ilities, we narrowed down architecture style to following:-
   A style consisting of two types of components <strong>core</strong> , <strong>plugin</strong>. <br/> In future if we were to add more third parties such as Gym, Therapist etc. They could potentially be added as plugin to existing system. <br/> However, one could argue they could be managed as separate identity in identity management system.<br/> This style may be more suitable for insurance, claims system.
 
 <h3>Event-driven only</h3>
-  Farmacy Family has components like <strong>Identity, user profile management</strong>. This component needs to validate identity and respond back synchronously to proceed further. We cannot have only event-driven style.
+  Farmacy Family has components like <strong>Identity, user profile management</strong>. This component needs to validate identity and respond back synchronously to proceed further. Only event-driven style would not serve stated purpose.
 
 <h3>Micorservices only</h3>
   Components like <strong>Personalization</strong>, <strong>notification</strong> are asynchronous by nature, hence more suitable for event-driven style. 
   
 <h3>Hybrid</h3>
- Finally, we propose an style that is a mix of monolith, event driven, microservices. Component level style can be found in Solution section
+ Finally, we propose an style that is a mix of monolith, event driven, microservices. Component level style can be found in <strong>Solution</strong> section
    
 <h2>References</h2>
 https://learning.oreilly.com/videos/software-architecture-fundamentals/9781491998991/ <br/> https://aws.amazon.com/blogs/architecture/store-protect-optimize-your-healthcare-data-with-aws/ <br/> https://aws.amazon.com/compliance/hipaa-eligible-services-reference/ 
