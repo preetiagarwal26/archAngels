@@ -3,7 +3,7 @@
 S.No.|Characteristic|Why
 -----|--------------|---
 1|Cost| - Farmacy Foods is a startup firm with limited resources. We propose to reduce cost by using open source libraries and reusing services provided by AWS. 
-2|Adeptablity| - Farmacy Family is an extension to Farmacy Foods. New components should be adeptable to existing system and should provide seamless integeration. 
+2|Adaptablity| - Farmacy Family is an extension to Farmacy Foods. New components should be adaptable to existing system and should provide seamless integeration. 
 3|Agility| - Solution should be delivered quickly. Time to market could a constraint here. Suggest to have less in-house build components 
 4|Security| - Farmacy Family plan to store customer's PII (Personal Identifiable Information), EMR (Electronic Medical Record). Data compliance, governance should be taken into consideration. <br/>- We offer storing data in <strong>Amazon S3 layer</strong>, and accessed via <strong>AWS HIPPA eligible services</strong>. 
 5|Feasibility & Simplicity| - Prefer pay-as-you-go instead of owning infrastructure and licenses.
